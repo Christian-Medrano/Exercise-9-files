@@ -6,12 +6,12 @@
  * @param Type of coffee
  */
 
-function makeCoffee($type) {
-  if ($type == 'latte') {
-    echo '<p>A latte is a shortened version of the Italian word, caffè latte, which means milk coffee. Lattes contain a shot of espresso and steamed milk.</p>';
-  } else if ($type == 'espresso') {
-    echo '<p>Highly concentrated Italian coffee served in a single standard shot.</p>';
+function alphabet($type) {
+  if ($type == 'ampersand') {
+  	$character = '&';
+
+    echo '<p>The Ampersand (&#38;) is an abbreviation of "and per say and". The character was once included as the last letter of the alphabet. However, it is typically only seen under certain circumstances such as joining names and is not accepted as a substitution for "and" in academic writing.</p>';
   } else {
-    echo '<p>That&rsquo;s not a real coffee.</p>';
+    echo '<p>Select a character to learn more about it.</p>';
   }
 }
